@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-itcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss2css": "node-sass src/style/tailwind.scss -o src/style/",
+    "tailwind-build": "postcss src/style/tailwind.css -o public/assets/tailwind.css",
+    "tailwind-watch": "postcss src/style/tailwind.css -o public/assets/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "itcss",
+    "tailwind"
+  ],
+  "author": "shaltaev <shaltaev.gleb@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss-cli": "^6.1.3",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^3.1.1",
+    "tailwindcss": "^1.1.2",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1"
+  }
+}

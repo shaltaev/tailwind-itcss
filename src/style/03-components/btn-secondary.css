@@ -1,0 +1,11 @@
+.btn-secondary {
+  @apply bg-gray-100 border-indigo-500 text-indigo-500;
+}
+
+.btn-secondary:hover {
+  @apply bg-indigo-100;
+}
+
+.btn-secondary:active {
+  @apply bg-indigo-200;
+}

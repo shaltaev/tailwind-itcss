@@ -1,0 +1,11 @@
+.btn-primary {
+  @apply bg-indigo-500 text-white;
+
+  &:hover {
+    @apply bg-indigo-400;
+  }
+
+  &:active {
+    @apply bg-indigo-600;
+  }
+}
