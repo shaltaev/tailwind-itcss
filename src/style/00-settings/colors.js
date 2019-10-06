@@ -1,6 +1,5 @@
 module.exports = {
-  colors: {
-    primary: "var(--colour-primary)",
-    secondary: "var(--colour-secondary)"
-  }
+    primary: "var(--color-primary)",
+    secondary: "var(--color-secondary)",
+    white: "var(--color-white)",
 };

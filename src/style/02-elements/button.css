@@ -1,5 +1,5 @@
 button {
-  @apply inline-block px-5 py-3 rounded-lg bg-indigo-500 text-white uppercase tracking-wider font-semibold text-sm;
+  @apply inline-block px-5 py-3 rounded-lg bg-primary text-white uppercase tracking-wider font-semibold text-sm;
 
   &:focus {
     @apply outline-none shadow-outline;
